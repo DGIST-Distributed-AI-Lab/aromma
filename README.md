@@ -2,7 +2,7 @@
 
 ![](assets/fig2.png) | ![](assets/fig3.png) |
 --|--|
-Overall Architecutre | Pseudo-labeling |
+Overall Architecture | Pseudo-Labeling |
 
 ## Introduction
 This is the pytorch implementation of our ICASSP 2026 paper "[AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures](https://doi.org/10.48550/arXiv.2601.19561)". **AROMMA (Aggregated Representations of Olfaction via Molecule and Mixture Alignment)** is a novel framework that learns a **unified embedding space** for both single molecules and two-molecule mixtures by **leveraging chemical foundation model ([SPMM](https://doi.org/10.1038/s41467-024-46440-3))**. 
