@@ -1,6 +1,11 @@
 # AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures
+
+![](assets/fig2.png) | ![](assets/fig3.png) |
+--|--|
+Overall Architecutre | Pseudo-labeling |
+
 ## Introduction
-This is the pytorch implementation of our ICASSP 2026 paper "[AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures]()". **AROMMA (Aggregated Representations of Olfaction via Molecule and Mixture Alignment)** is a novel framework that learns a **unified embedding space** for both single molecules and two-molecule mixtures by **leveraging chemical foundation model ([SPMM](https://doi.org/10.1038/s41467-024-46440-3))**. 
+This is the pytorch implementation of our ICASSP 2026 paper "[AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures](https://doi.org/10.48550/arXiv.2601.19561)". **AROMMA (Aggregated Representations of Olfaction via Molecule and Mixture Alignment)** is a novel framework that learns a **unified embedding space** for both single molecules and two-molecule mixtures by **leveraging chemical foundation model ([SPMM](https://doi.org/10.1038/s41467-024-46440-3))**. 
 
 To address the **label sparsity** in the mixture dataset (BP), AROMMA employs a training strategy that combines:
 - **Knowledge distillation** from a molecule-level teacher model ([POM](https://doi.org/10.1088/2632-2153/adfffc)), and  
@@ -43,4 +48,10 @@ Training Procedure:
 ## Citation
 
 ```
+@article{kang2026aromma,
+  title={AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures},
+  author={Kang, Dayoung and Kim, JongWon and Park, Jiho and Lee, Keonseock and Choi, Ji-Woong and So, Jinhyun},
+  journal={arXiv preprint arXiv:2601.19561},
+  year={2026}
+}
 ```
