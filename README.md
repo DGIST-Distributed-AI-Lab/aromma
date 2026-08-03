@@ -48,10 +48,12 @@ Training Procedure:
 ## Citation
 
 ```
-@article{kang2026aromma,
-  title={AROMMA: Unifying Olfactory Embeddings for Single Molecules and Mixtures},
+@inproceedings{kang2026aromma,
+  title={AROMMA: unifying olfactory embeddings for single molecules and mixtures},
   author={Kang, Dayoung and Kim, JongWon and Park, Jiho and Lee, Keonseock and Choi, Ji-Woong and So, Jinhyun},
-  journal={arXiv preprint arXiv:2601.19561},
-  year={2026}
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={4091--4095},
+  year={2026},
+  organization={IEEE}
 }
 ```
